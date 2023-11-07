@@ -1,6 +1,6 @@
 {
   "name": "electron001",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hello World!",
   "main": "main.js",
   "scripts": {
@@ -9,6 +9,10 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreSLima/TestElectron.git"
   },
   "author": "Andre Lima",
   "license": "MIT",

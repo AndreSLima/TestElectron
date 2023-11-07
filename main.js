@@ -1,5 +1,6 @@
 // main.js
-require('update-electron-app')()
+const { updateElectronApp } = require('update-electron-app')
+updateElectronApp()
 
 // Modules to control application life and create native browser window
 const { app, BrowserWindow } = require('electron')
